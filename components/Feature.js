@@ -30,15 +30,15 @@ class Feature extends Component{
         {
             image_path:'CONVERSATIONS.png',
             icon: 'zmdi zmdi-desktop-mac',
-            title: '100% MANAGED PROGRAM',
-            desc: 'From start to finish, we handle everything for you. No other program offers this level of service. Premium video ads, a fully customized AI agent, and leads seamlessly converted into bookings. It’s all done for you.'
+            title: 'RETARGETING CAMPAIGNS',
+            desc: 'Everyday you receive new leads from your campaigns. Within a few minutes you are able to send out dozens of SMS messages to each of your new leads. Easy and precise communication.'
         },
 
         {
             image_path:'INAPP_FB_ADS.png',
             icon: 'zmdi zmdi-language-html5',
-            title: 'VIDEO DOWNLOADS',
-            desc: 'Every video that is custom produced for you is available for you to download and reuse at a later date and on other platforms. Investing in premium video ads for your business has never been this accessible.'
+            title: 'INDEPENDENT MARKETING',
+            desc: 'You now have the tools and the knowledge to run your own ads and send your own SMS campaigns. No more monthly payments to agencies using the exact same process. Take back control.'
         }
        ] 
 
@@ -69,7 +69,7 @@ class Feature extends Component{
                                 <img className="image-1" src={require('../assets/images/app/title-icon.png')} alt="App Landing"/>
                                 <img className="image-2" src={require('../assets/images/app/title-icon-2.png')} alt="App Landing"/>
                                 <img className="image-3" src={require('../assets/images/app/title-icon-3.png')} alt="App Landing"/>
-                                <p>The NEWBookings.ai program is the most successful booking solution for service based and customer focused businesses in the US. It’s the only program that combines premium video ads with a customized AI-powered booking agent to drive results and streamline client acquisition.</p>
+                                <p>The NEWBookings.ai program is the most successful booking solution for service based and customer focused businesses. It’s the only program that enable you to combine premium video and image ads with a customized AI-powered booking agent to drive results and streamline client acquisition.</p>
                             </div>
                        </div>
                    </div>

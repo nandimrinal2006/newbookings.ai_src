@@ -13,9 +13,8 @@ class HeroOlive extends Component {
                                     {/*<h1>AWESOME <br /> <span className="theme-color">apnew</span> MOBILE APP.</h1>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majorityhave suffered alteration in some form, by injected humour, or randomised words which don't look even There are many variations of passages of Lorem Ipsum available</p>*/}
                                     
-                                    <h1><span className="theme-color">PREMIUM </span><br /> VIDEO ADS & <br /> AI BOOKINGS</h1>
-                                    <p>NewBookings is the only marketing solution on the market to leverage premium video ads on Facebook and Instagram to consistently generate new leads for your business everyday. Our advanced AI-powered agent is customized to your business and will seamlessly convert leads into service bookings.
-                                    </p>
+                                    <h1><span className="theme-color">RUN ADS </span><br /> WITHOUT <br /> AN AGENCY</h1>
+                                    <p>NewBookings is the only independent marketing solution on the market. Run premium video ads on Facebook and Instagram and consistently generate new leads for your business. Each account includes an advanced AI-powered agent to seamlessly convert leads into service bookings.</p>
                                     
                                     <div className="banner-buttons">
                                         <a href="#download"><button type="button" className="button-default button-olive">Download</button></a>

@@ -9,7 +9,7 @@ class Pricing extends Component{
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title text-center mb--40">
-                                <h2>PRICING <span className="theme-color">PLAN</span></h2>
+                                <h2>PRICING <span className="theme-color"></span></h2>
                                 <img className="image-1" src={require('../assets/images/app/title-icon.png')} alt="App Landing"/>
                                 <img className="image-2" src={require('../assets/images/app/title-icon-2.png')} alt="App Landing"/>
                                 <img className="image-3" src={require('../assets/images/app/title-icon-3.png')} alt="App Landing"/>
@@ -49,18 +49,19 @@ class Pricing extends Component{
                         <div className="col-lg-4 col-md-6 col-12 pricing-column pricing-column-2 mt--40">
                             <div className="single-price-package list-large">
                                 <div className="price-title">
-                                    <h3>Starting at...</h3>
+                                    <h3>ONE PRICE</h3>
                                     <div className="price">
-                                        <h4><span className="text-top"></span><span className="text-large text-number">$99/</span></h4>
-                                        <p><span className="text-bottom">Month</span></p>
+                                        <h4><span className="text-top"></span><span className="text-large text-number">$995/</span></h4>
+                                        <p><span className="text-bottom">year</span></p>
                                     </div>
                                 </div>
                                 <div className="price-list">
                                     <ul>
                                         <li>Premium Video Ads</li>
-                                        <li>Managed Campaigns</li>
-                                        <li>AI Custom Agent</li> 
-                                        <li>Mobile App</li>                                       
+                                        <li>AI Custom Agent</li>
+                                        <li>SMS Retargeting</li>
+                                        <li>Mobile App</li>
+                                        <li>100% Independence</li>                                                                              
                                     </ul>
                                     <div className="price-btn">
                                     <a href="#support" role="button"><button className="button" type="button">Book &nbsp;DEMO</button></a>
