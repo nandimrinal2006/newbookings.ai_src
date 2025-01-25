@@ -21,7 +21,7 @@ class Footer extends Component {
                                     {/*<a href="https://mazurprogram.laserappointments.com/optin"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>*/}
                                     {/*<a href="https://mazurprogram.laserappointments.com/medspabookingsai"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>*/}
                                     {/*<a href="https://medspa.newbookings.ai/booking"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>*/}
-                                    <a href="https://medspa.newbooking.ai/landing"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>
+                                    <a href="https://your.newbooking.ai/landing"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>
                                 </div>
                             </div>
                         </div>
