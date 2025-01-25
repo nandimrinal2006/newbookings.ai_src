@@ -1,0 +1,99 @@
+import { useState } from 'react';
+import ReactSimplyCarousel from 'react-simply-carousel';
+
+function ReactSimplyCarouselExample() {
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+
+  return (
+    <div className='RSC_item_container'>
+      <ReactSimplyCarousel
+        activeSlideIndex={activeSlideIndex}
+        onRequestChange={setActiveSlideIndex}
+        itemsToShow={1}
+        itemsToScroll={1}
+        forwardBtnProps={{
+          //here you can also pass className, or any other button element attributes
+          style: {
+            alignSelf: 'center',
+            //background: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '20px',
+            height: 30,
+            lineHeight: 1,
+            textAlign: 'center',
+            width: 30,
+          },
+          children: <span class='RSC_prev_next_btn'>{`>>`}</span>,
+        }}
+        backwardBtnProps={{
+          //here you can also pass className, or any other button element attributes
+          style: {
+            alignSelf: 'center',
+            //background: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '20px',
+            height: 30,
+            lineHeight: 1,
+            textAlign: 'center',
+            width: 30,
+          },
+          children: <span class='RSC_prev_next_btn'>{`<<`}</span>,
+        }}
+        responsiveProps={[
+          {         
+            itemsToShow: 3,
+            itemsToScroll: 2,
+            minWidth: 1200,
+          },
+          {         
+            itemsToShow: 2,
+            itemsToScroll: 2,
+            maxWidth: 1200,
+          },
+          {         
+            itemsToShow: 1,
+            itemsToScroll: 1,
+            maxWidth: 768,
+          },
+        ]}
+        speed={400}
+        easing="linear"
+
+      >
+        {/* here you can also pass any other element attributes. Also, you can use your custom components as slides */}
+        <div className='RSC_single_item_container'>
+        <a href="#"><img src={require("../assets/images/app/screenshot_carousel/Lunula Logo.png")} alt=" " className="d-block" style={{width:"100%"}} /></a>
+        </div>
+        <div className='RSC_single_item_container'>
+        <a href="#"><img src={require("../assets/images/app/screenshot_carousel/Emerald Logo.PNG")} alt=" " className="d-block" style={{width:"100%"}} /></a>
+        </div>
+        <div className='RSC_single_item_container'>
+        <a href="#"><img src={require("../assets/images/app/screenshot_carousel/Zerona Logo No BG.png")} alt=" " className="d-block" style={{width:"100%"}} /></a>
+        </div>
+        <div className='RSC_single_item_container'>
+        <a href="#"><img src={require("../assets/images/app/screenshot_carousel/Botox No BG.png")} alt=" " className="d-block" style={{width:"100%"}} /></a>
+        </div>
+        <div className='RSC_single_item_container'>
+        <a href="#"><img src={require("../assets/images/app/screenshot_carousel/Emface_LOGO.png")} alt=" " className="d-block" style={{width:"100%"}} /></a>
+        </div>
+        <div className='RSC_single_item_container'>
+        <a href="#"><img src={require("../assets/images/app/screenshot_carousel/Emsculpt NEO No BG.png")} alt=" " className="d-block" style={{width:"100%"}} /></a>
+        </div>
+        <div className='RSC_single_item_container'>
+        <a href="#"><img src={require("../assets/images/app/screenshot_carousel/Fit3D Logo No BG.png")} alt=" " className="d-block" style={{width:"100%"}} /></a>
+        </div>  
+        <div className='RSC_single_item_container'>
+        <a href="#"><img src={require("../assets/images/app/screenshot_carousel/Morpheus8-Logo.png")} alt=" " className="d-block" style={{width:"100%"}} /></a>
+        </div>       
+      </ReactSimplyCarousel>
+    </div>
+  );
+}
+
+export default ReactSimplyCarouselExample;

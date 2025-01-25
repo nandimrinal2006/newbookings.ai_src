@@ -1,0 +1,117 @@
+import React,  { Component } from "react";
+
+
+class Pricing extends Component{
+    render(){
+        return(
+            <div className={`pricing-table-area pt--40 pt_sm--100 ${this.props.horizontalpricing}`} id="pricing">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="section-title text-center mb--40">
+                                <h2>PRICING <span className="theme-color">PLAN</span></h2>
+                                <img className="image-1" src={require('../assets/images/app/title-icon.png')} alt="App Landing"/>
+                                <img className="image-2" src={require('../assets/images/app/title-icon-2.png')} alt="App Landing"/>
+                                <img className="image-3" src={require('../assets/images/app/title-icon-3.png')} alt="App Landing"/>
+                                <p>No Contract Term | No Setup Fee | No Risk</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mt--30">
+
+                        {/* Start Single Pricing */}
+                        <div className="col-lg-4 col-md-6 col-12 pricing-column pricing-column-1 mt--40">
+                            <div className="single-price-package">
+                                <div className="price-title">
+                                    <h3>Managed Ads</h3>
+                                    <div className="price">
+                                        <h4><span className="text-large text-number">$195</span></h4>
+                                        <p><span className="text-bottom">/month</span></p>
+                                    </div>
+                                </div>
+                                <div className="price-list">
+                                    <ul>
+                                        <li>We Run Your Ads</li>
+                                        <li>Weekly Ad Review</li>
+                                        <li>Increased CTR%</li>
+                                        <li>Monthly Ad Edits</li>
+                                        <li>Increased Bookings</li>
+                                    </ul>
+                                    <div className="price-btn">
+                                    <a href="#support" role="button"><button className="button" type="button">Book &nbsp;DEMO</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* End Single Pricing */}
+
+                        {/* Start Single Pricing */}
+                        <div className="col-lg-4 col-md-6 col-12 pricing-column pricing-column-2 mt--40">
+                            <div className="single-price-package list-large">
+                                <div className="price-title">
+                                    <h3>Starting at...</h3>
+                                    <div className="price">
+                                        <h4><span className="text-top"></span><span className="text-large text-number">$99/</span></h4>
+                                        <p><span className="text-bottom">Month</span></p>
+                                    </div>
+                                </div>
+                                <div className="price-list">
+                                    <ul>
+                                        <li>Premium Video Ads</li>
+                                        <li>Managed Campaigns</li>
+                                        <li>AI Custom Agent</li> 
+                                        <li>Mobile App</li>                                       
+                                    </ul>
+                                    <div className="price-btn">
+                                    <a href="#support" role="button"><button className="button" type="button">Book &nbsp;DEMO</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* End Single Pricing */}
+
+                        {/* Start Single Pricing */}
+                        <div className="col-lg-4 col-md-6 col-12 pricing-column pricing-column-3 mt--40">
+                            <div className="single-price-package">
+                                <div className="price-title">
+                                    <h3>ANNUAL BILLING</h3>
+                                    <div className="price">
+                                        <h4><span className="text-large text-large-2">SAVE <span className="text-number">20</span>%</span></h4>                                        
+                                    </div>
+                                </div>
+                                <div className="price-list">
+                                    <ul>
+                                        <li>Single Payment</li>
+                                        <li>Save 20%</li>
+                                        <li>Best Value</li> 
+                                        <li>Bundle Services</li>
+                                        <li>Best Option</li>                                      
+                                    </ul>
+                                    <div className="price-btn">
+                                    <a href="#support" role="button"><button className="button" type="button">Book &nbsp;DEMO</button></a>
+                                    </div>
+                                </div>
+                            </div>
+    </div>
+                        {/* End Single Pricing */}
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default Pricing;
+
+
+
+
+
+
+
+
+
+
+
+
+
