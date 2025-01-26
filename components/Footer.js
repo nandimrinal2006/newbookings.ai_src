@@ -21,7 +21,7 @@ class Footer extends Component {
                                     {/*<a href="https://mazurprogram.laserappointments.com/optin"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>*/}
                                     {/*<a href="https://mazurprogram.laserappointments.com/medspabookingsai"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>*/}
                                     {/*<a href="https://medspa.newbookings.ai/booking"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>*/}
-                                    <a href="https://your.newbooking.ai/landing"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>
+                                    <a href="https://your.newbooking.ai/landingai"><img className="demo-img" src={require('../assets/images/app/demo.png')} alt="CLICK HRERE TO BOOK A DEMO"/></a>
                                 </div>
                             </div>
                         </div>
@@ -107,11 +107,11 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-lg-8 offset-lg-2 col-xl-4 offset-xl-4">
                                 <div className="footer-links text-center">
-                                    <a href="https://www.facebook.com/mazur.program/"><i className="zmdi zmdi-facebook"></i></a>
-                                    <a href="https://www.instagram.com/mazurprogram?igsh=eDNwbnk2a2x1b3Yy&utm_source=qr
+                                    {/*<a href="https://www.facebook.com/mazur.program/"><i className="zmdi zmdi-facebook"></i></a>
+                                    */}<a href="https://www.instagram.com/mazurprogram?igsh=eDNwbnk2a2x1b3Yy&utm_source=qr
 
 "><i className="zmdi zmdi-instagram"></i></a>
-                                    <a href="https://www.youtube.com/channel/UCMqFbbx2ytOqL7VsjV83bWA"><i className="zmdi zmdi-youtube"></i></a>
+                                    <a href="https://www.youtube.com/@newbookings"><i className="zmdi zmdi-youtube"></i></a>
                                     {/*<a href="/"><i className="zmdi zmdi-twitter"></i></a>
                                     <a href="/"><i className="zmdi zmdi-google"></i></a>
                                     <a href="/"><i className="zmdi zmdi-linkedin"></i></a>
