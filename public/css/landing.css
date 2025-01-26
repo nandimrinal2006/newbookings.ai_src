@@ -193,3 +193,5 @@
 	padding-bottom: 30px;
 	padding-top: 30px;
 }
+
+div.p-gap p{margin-bottom: 15px; padding: 0 20px;}
