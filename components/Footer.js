@@ -110,7 +110,7 @@ class Footer extends Component {
                                     {/*<a href="https://www.facebook.com/mazur.program/"><i className="zmdi zmdi-facebook"></i></a>
                                     */}<a href="https://www.instagram.com/mazurprogram?igsh=eDNwbnk2a2x1b3Yy&utm_source=qr
 
-"><i className="zmdi zmdi-instagram"></i></a>
+"><i className="zmdi zmdi-instagram"></i></a> 
                                     <a href="https://www.youtube.com/@newbookings"><i className="zmdi zmdi-youtube"></i></a>
                                     {/*<a href="/"><i className="zmdi zmdi-twitter"></i></a>
                                     <a href="/"><i className="zmdi zmdi-google"></i></a>
