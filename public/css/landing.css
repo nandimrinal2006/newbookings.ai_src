@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* cellphone layout */
+.mainbody{
+	background-color: #000000;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.logolanding {
+	width: 60%;
+}
+
+.choosecontent h2 {
+	width: 100%;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size: 35px;
+	color: #FFFFFF;
+	line-height: 44px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.emeraldpic {
+	width: 100%;
+}
+
+.zeronapic {
+	width: 100%;
+}
+
+
+/*footer*/
+
+.footertext {
+	width: 100%;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size: 13px;
+	color: #5B5B5B;
+	align-content: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+
+/*768 screen*/
+
+@media only screen and (min-width: 768px) {
+.wrapper: {
+	width: 600px;
+	margin: 0 auto;
+}
+	
+.logolanding {
+	width: 60%;
+}
+	
+.choosecontent h2 {
+	width: 100%;
+	font-size: 50px;
+}
+
+.emeraldpic {
+	width: 100%;
+}
+
+.zeronapic {
+	width: 100%;
+}
+	
+}
+
+@media only screen and (min-width: 1024px) {
+.wrapper: {
+	width: 1000px;
+	margin: 0 auto;
+}
+	
+.logolanding {
+	width: 30%;
+}
+	
+.choosecontent h2 {
+	width: 100%;
+	font-size: 30px;
+}
+
+.emeraldpic {
+	width: 35%;
+}
+
+.zeronapic {
+	width: 35%;
+}
+	
+}
+
+
+
+@media only screen and (min-width: 1366px) {
+	.wrapper {
+		width: 1300px;
+		margin: 0 auto;
+	}
+	
+	.logolanding {
+		width: 30%;
+	}
+	
+	.emeraldpic {
+		width: 40%;
+	}
+	
+	.zeronapic {
+		width: 40%;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.wrapper {
+		width: 1850px;
+		margin: 0 auto;
+	}
+	
+	.choosecontent h2 {
+	width: 100%;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size: 40px;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+	
+	.logolanding {
+		width: 20%;
+	}
+	
+	.emeraldpic {
+		width: 28%;
+	
+	}
+	.zeronapic {
+		width: 28%;
+	}
+	
+}
+
+@media only screen and (min-width: 2560px) {
+	.wrapper {
+		width: 2500px;
+		margin: 0 auto;
+	}
+	
+	.choosecontent h2 {
+	width: 100%;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size: 50px;
+	color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+	
+	.logolanding {
+		width: 20%;
+	}
+	
+	.emeraldpic {
+		width: 16%;
+			
+	
+	}
+	.zeronapic {
+		width: 16%;
+	}
+	
+}
+
+.terms {
+	width: 100%;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size: 16px;
+	color: #ffffff;
+	align-content: left;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
