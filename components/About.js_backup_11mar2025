@@ -1,5 +1,4 @@
 import React ,  { Component } from "react";
-import Video from '../components/Video';
 
 class About extends Component{
     render(){
@@ -17,7 +16,6 @@ class About extends Component{
                             </div>
                         </div>
                     </div>
-                    <Video />
                     <div className="row align-items-center">
                         <div className="col-lg-5 offset-lg-1 mt--40">
                             <div className="about-thumbnail mr--35">

@@ -502,6 +502,42 @@ button:has(.RSC_prev_next_btn) {
 }
 
 
+/* The video container */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto; /* Centers the container */
+}
+
+/* The iframe inside the container */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 99.7%;
+    height: 74.8%;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+    .video-container {
+        padding-bottom: 56.25%; /* Ensure 16:9 ratio on smaller screens */
+    }
+}
+
+/* Media query for very small devices (portrait on phones) */
+@media (max-width: 480px) {
+    .video-container {
+        padding-bottom: 56.25%;
+    }
+}
+
+
 /*TDS: end*/
 
 
